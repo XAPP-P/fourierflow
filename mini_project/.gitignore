@@ -1,0 +1,31 @@
+# .gitignore for mini_project/
+# This file overrides the parent fourierflow/.gitignore rules so that the
+# mini-project's notebooks, code, results (summary CSVs + plots) get tracked
+# by git. Large data and checkpoint artifacts are still ignored.
+
+# === Un-ignore things the parent .gitignore blocks ===
+# The parent ignores *.ipynb globally; re-include our notebooks.
+!*.ipynb
+!notebooks/
+!notebooks/*.ipynb
+
+# The parent ignores *.csv globally; re-include our small summary CSVs.
+!*.csv
+!results/
+!results/*.csv
+!results/*.png
+
+# === But still ignore large/generated artifacts within this project ===
+# Generated Navier-Stokes data (hundreds of MB, regenerable from code)
+ns_data/
+
+# Model checkpoints and per-run logs (regenerable)
+runs/
+
+# Cached intermediate result tensors (can be regenerated from the notebooks)
+results/*.pt
+
+# Python cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
