@@ -1,3 +1,26 @@
+> ## 📘 Educational Fork — UC Berkeley IEOR 242B Mini-Project
+>
+> This is a **fork** of [alasdairtran/fourierflow](https://github.com/alasdairtran/fourierflow)
+> maintained by students for a course project. It is **not affiliated with
+> the original authors** of the F-FNO paper.
+>
+> **What we added:** a self-contained [`mini_project/`](./mini_project)
+> folder with a from-scratch PyTorch replication of the F-FNO architecture
+> (Tran et al., ICLR 2023) at a scale that fits in a single Colab T4
+> session (~3 hours total). It is intended as a pedagogical companion to
+> the original paper, not a substitute for the full codebase.
+>
+> **If you want the original project:** everything below this notice is
+> unchanged from the upstream repo. Follow those instructions to reproduce
+> the paper's main results at full scale.
+>
+> **If you're a course reviewer or curious student:** start with
+> [`mini_project/README.md`](./mini_project/README.md).
+>
+> — Ryan Michael Chekkouri & Yijun Gu, UC Berkeley Spring 2026
+>
+> ---
+
 ![Teaser](https://raw.githubusercontent.com/alasdairtran/fourierflow/main/figures/poster.png)
 
 # Factorized Fourier Neural Operators
