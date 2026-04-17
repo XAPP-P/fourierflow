@@ -1,4 +1,4 @@
-> ## 📘 Educational Fork — UC Berkeley IEOR 242B Mini-Project
+> ## 📘 Educational Fork — UC Berkeley INDENG 242B Mini-Project
 >
 > This is a **fork** of [alasdairtran/fourierflow](https://github.com/alasdairtran/fourierflow)
 > maintained by students for a course project. It is **not affiliated with
