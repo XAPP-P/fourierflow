@@ -1,0 +1,6 @@
+config,model,cosine_LR,noise_std,test_NMSE,params
+FNO (plain),fno,False,0.0,0.015628164251776117,2372225
+FNO + cosine LR,fno,True,0.0,0.0049431310966610905,2372225
+FNO + cosine + noise,fno,True,0.001,0.004914931315732629,2372225
+F-FNO (plain),ffno,False,0.0,0.005428694409171217,234625
+F-FNO + cosine LR,ffno,True,0.0,0.003273019983776306,234625
